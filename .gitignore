@@ -1,0 +1,51 @@
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Python virtual environments
+.venv/
+venv/
+env/
+.env/
+conda-meta/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+temp/
+tmp/
+
+# Power BI temporary files
+*.pbit.tmp
+
+# Local SQLite temporary files
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Build and packaging outputs
+build/
+dist/
+*.egg-info/

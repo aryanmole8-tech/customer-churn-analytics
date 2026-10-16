@@ -1,0 +1,8 @@
+model_version,data_split,metric_name,metric_value,evaluated_at
+logistic_regression_v1,test,accuracy,0.772888573456352,2026-10-14T14:42:09.049029+00:00
+logistic_regression_v1,test,brier_score,0.14141193442912323,2026-10-14T14:42:09.049029+00:00
+logistic_regression_v1,test,f1,0.6078431372549019,2026-10-14T14:42:09.049029+00:00
+logistic_regression_v1,test,pr_auc,0.6223691832204192,2026-10-14T14:42:09.049029+00:00
+logistic_regression_v1,test,precision,0.5610859728506787,2026-10-14T14:42:09.049029+00:00
+logistic_regression_v1,test,recall,0.6631016042780749,2026-10-14T14:42:09.049029+00:00
+logistic_regression_v1,test,roc_auc,0.8325841535560206,2026-10-14T14:42:09.049029+00:00

@@ -1,0 +1,53 @@
+{
+  "model_version": "logistic_regression_v1",
+  "model_type": "LogisticRegression",
+  "threshold": 0.4,
+  "threshold_source": "validation_f1",
+  "random_state": 42,
+  "training_records": 4225,
+  "validation_records": 1409,
+  "test_records": 1409,
+  "feature_columns": [
+    "tenure",
+    "MonthlyCharges",
+    "TotalCharges",
+    "SeniorCitizen",
+    "gender",
+    "Partner",
+    "Dependents",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod"
+  ],
+  "test_metrics": {
+    "accuracy": 0.772888573456352,
+    "precision": 0.5610859728506787,
+    "recall": 0.6631016042780749,
+    "f1": 0.6078431372549019,
+    "roc_auc": 0.8325841535560206,
+    "pr_auc": 0.6223691832204192,
+    "brier_score": 0.14141193442912323
+  },
+  "confusion_matrix": {
+    "tn": 841,
+    "fp": 194,
+    "fn": 126,
+    "tp": 248
+  },
+  "evaluated_at_utc": "2026-10-14T14:42:09.049029+00:00",
+  "limitations": [
+    "Fictional cross-sectional IBM telecom dataset.",
+    "Random holdout does not establish future forecasting performance.",
+    "Probabilities are not guaranteed to be calibrated.",
+    "No observed retention campaign outcomes."
+  ]
+}

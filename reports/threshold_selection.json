@@ -1,0 +1,7 @@
+{
+  "model": "Logistic Regression",
+  "selection_metric": "validation_f1",
+  "selected_threshold": 0.4,
+  "random_state": 42,
+  "test_set_evaluated": false
+}

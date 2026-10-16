@@ -1,0 +1,12 @@
+
+# Data processing and numerical analysis
+pandas
+numpy
+
+# Machine learning
+scikit-learn
+joblib
+
+# Data visualization
+matplotlib
+seaborn
